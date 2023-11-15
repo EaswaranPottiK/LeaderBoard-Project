@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>LeaderBoard</title>
+    <link href="./style.css" rel="stylesheet">
 <body>
-    
+    <h1>LEADER BOARD</h1>
+    <form>
+        <input type="text" placeholder="First Name" id="fname">
+        <input type="text" placeholder="Last Name" id="lname">
+        <input type="text" placeholder="Country" id="country">
+        <input type="text" placeholder="Player Score" id="pscore">
+        <button type="submit">Add Player</button>
+    </form>
+    <br>
+    <p style="color: red; font-size: large; display: none;" id="warning">All fields are required</p>
+    <div class="addHere">
+        <div class="card">
+            <div>
+                <div class="name">Rohit Sharma</div>
+                <div class="time" style="font-size: small; color: #686868;">November 15: 2023 8:20:31 </div>
+            </div>
+            <div class="country">India </div>
+            <div class="score">85</div>
+            <div>
+                <button id="del" fdprocessedid="hk6mh">🗑</button>
+                <button fdprocessedid="64kyi9">+5</button>
+                <button fdprocessedid="dzbvx3">-5</button>
+            </div>
+            </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

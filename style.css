@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif
+}
+h1{
+    font-weight: 500;
+}
+form{
+    min-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: black;
+    padding: 0.8em 1em;
+    border: 1px solid lightgreen;
+}
+form button{
+    border: black;
+    padding: 0.8em 2em;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+}
+
+.card{
+    background-color: lightgreen;
+    margin-top: 15px;
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    border-style: none;
+    border: none;
+    all: unset;
+    margin-right: 5px;
+}
